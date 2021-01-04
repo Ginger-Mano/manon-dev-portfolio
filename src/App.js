@@ -3,8 +3,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h2>manon</h2>
-      <h2>sainton</h2>
+      <div className="title">
+        <h2 className="title1">manon sainton</h2>
+      </div>
     </div>
   );
 }
