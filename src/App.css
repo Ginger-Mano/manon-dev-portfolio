@@ -55,9 +55,25 @@
   height: 15%;
   width: 9%;
   border-radius: 50%;
-  border-color: red;
-  border-width: 10px;
+  border-color: black;
+  border-width: 20px;
   cursor: pointer;
+  animation: leftdia 0.5s; 
+}
+
+@keyframes leftdia {
+  0% {
+    opacity: 0%;
+    transform: translatex(190px) translatey(190px)
+  }
+  /* 50% {
+    opacity: 50%;
+    transform: translatex(0px) translatey(0px)
+  } */
+  100% {
+    opacity: 100%;
+    transform: translatex(0px) translatey(0px)
+  }
 }
 
 .imgtop {
@@ -70,17 +86,49 @@
   border-color: red;
   border-width: 10px;
   cursor: pointer;
+  animation: topdia 2s;
+}
+
+@keyframes topdia {
+  0% {
+    opacity: 0%;
+    transform: translatex(0px) translatey(50px)
+  }
+  /* 50% {
+    opacity: 50%;
+    transform: translatex(0px) translatey(0px)
+  } */
+  100% {
+    opacity: 100%;
+    transform: translatex(0px) translatey(0px)
+  }
 }
 
 .imgright {
   position: absolute;
   top: 575px;
   right: 10%;
-  height: 18%;
-  width: 12%;
+  height: 15%;
+  width: 10%;
   border-radius: 50%;
   border-color: red;
   border-width: 10px;
   cursor: pointer;
+  animation: rightdia 1.2s;
+}
+
+@keyframes rightdia {
+  0% {
+    opacity: 0%;
+    transform: translatex(-70px) translatey(70px)
+  }
+  /* 50% {
+    opacity: 50%;
+    transform: translatex(0px) translatey(0px)
+  } */
+  100% {
+    opacity: 100%;
+    transform: translatex(0px) translatey(0px)
+  }
 }
 
