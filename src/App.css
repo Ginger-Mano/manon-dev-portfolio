@@ -5,19 +5,26 @@
 .Appchange {
   background-color: red;
   text-align: center;
+  position: absolute;
+  width: 100%;
 }
+
 .title {
   font-family: 'Fredoka One';
   font-size: 100px;
   font-weight: bold;
 }
 
-.title1 {
+/* .title2 {
+  height: 10px;
+} */
+
+/* .title1 {
   padding: 10px;
-}
+} */
 
 .start {
-  padding: 350px;
+  padding: 150px;
 }
 
 .startB {
