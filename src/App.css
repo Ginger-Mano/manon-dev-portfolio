@@ -9,22 +9,56 @@
   width: 100%;
 }
 
-.title {
+
+.me {
+  position: absolute;
+  background-color: cyan;
+  font-size: 50px;
+  border-radius: 50%;
+  width: 50%x;
+  top: 670px;
+  left: 10%;
+}
+
+.title1 {
   font-family: 'Fredoka One';
-  font-size: 100px;
+  font-size: 160px;
+  font-weight: bold;
+  padding-top: 50px;
+  /* animation: wiggle 1s infinite; */
+}
+
+span:nth-child(2) {
+  animation-delay: 5s;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translate(1px , 2px) rotate(-1deg) ;
+  }
+  25% {
+    transform: translate(3px , 1px) rotate(1deg) ;
+  }
+  50% {
+    transform: translate(2px , 3px) rotate(-1deg) ;
+  }
+  75%{
+    transform: translate(1px , 1px) rotate(0deg) ;
+  } 
+  100% {
+    transform: translate(-2px , 3px) rotate(-2deg) ;
+  }
+}
+
+.title2 {
+  font-family: 'Fredoka One';
+  font-size: 50px;
   font-weight: bold;
 }
 
-/* .title2 {
-  height: 10px;
-} */
-
-/* .title1 {
-  padding: 10px;
-} */
-
 .start {
-  padding: 150px;
+  padding: 300px;
+  
 }
 
 .startB {
@@ -57,16 +91,25 @@
 
 .img {
   position: absolute;
-  top: 550px;
+  top: 570px;
   left: 10%;
-  height: 15%;
-  width: 9%;
+  height: 17%;
+  width: 10%;
   border-radius: 50%;
   border-color: black;
   border-width: 20px;
   cursor: pointer;
-  animation: leftdia 0.5s; 
+  animation: leftdia 1.2s; 
 }
+
+.imgtext {
+  position: absolute;
+  font-family: 'Fredoka One';
+  top: 750px;
+  left: 10.5%;
+  font-size: 40px;
+}
+
 
 @keyframes leftdia {
   0% {
@@ -85,7 +128,7 @@
 
 .imgtop {
   position: absolute;
-  top: 450px;
+  top: 550px;
   left: 45%;
   height: 15%;
   width: 10%;
@@ -93,7 +136,15 @@
   border-color: red;
   border-width: 10px;
   cursor: pointer;
-  animation: topdia 2s;
+  animation: topdia 1.6s;
+}
+
+.imgtoptext {
+  position: absolute;
+  font-family: 'Fredoka One';
+  top: 750px;
+  left: 46.5%;
+  font-size: 40px;
 }
 
 @keyframes topdia {
@@ -121,8 +172,16 @@
   border-color: red;
   border-width: 10px;
   cursor: pointer;
-  animation: rightdia 1.2s;
+  animation: rightdia 1.4s;
 }
+.imgrighttext {
+  position: absolute;
+  font-family: 'Fredoka One';
+  top: 750px;
+  right: 13.5%;
+  font-size: 40px;
+}
+
 
 @keyframes rightdia {
   0% {
