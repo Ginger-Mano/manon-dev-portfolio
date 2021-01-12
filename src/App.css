@@ -3,21 +3,10 @@
 }
 
 .Appchange {
-  background-color: red;
+  background-color: rgb(255, 220, 20);
   text-align: center;
   position: absolute;
   width: 100%;
-}
-
-
-.me {
-  position: absolute;
-  background-color: cyan;
-  font-size: 50px;
-  border-radius: 50%;
-  width: 50%x;
-  top: 670px;
-  left: 10%;
 }
 
 .title1 {
@@ -25,28 +14,64 @@
   font-size: 160px;
   font-weight: bold;
   padding-top: 50px;
-  /* animation: wiggle 1s infinite; */
 }
 
-span:nth-child(2) {
-  animation-delay: 5s;
+.title3 {
+  font-family: 'Fredoka One';
+  font-size: 160px;
+  font-weight: bold;
+  padding-top: 50px;
+  color: mediumblue;
+}
+.letterAnim {
+  display: inline-block;
+  animation: wiggle 1s infinite;
+  cursor: pointer;
+}
+.letterfixed {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.letterAnim2 {
+  display: inline-block;
+  animation: wiggle2 1s infinite;
+  cursor: pointer;
 }
 
 @keyframes wiggle {
   0% {
-    transform: translate(1px , 2px) rotate(-1deg) ;
+    transform: translate(5px , 10px) rotate(-1deg) scale(1);
   }
   25% {
-    transform: translate(3px , 1px) rotate(1deg) ;
+    transform: translate(6px , 2px) rotate(1deg) scale(1.10) ;
   }
   50% {
-    transform: translate(2px , 3px) rotate(-1deg) ;
+    transform: translate(8px , 9px) rotate(-1deg) scale(1.15) ;
   }
   75%{
-    transform: translate(1px , 1px) rotate(0deg) ;
+    transform: translate(2px , 2px) rotate(0deg) scale(1.18) ;
   } 
   100% {
-    transform: translate(-2px , 3px) rotate(-2deg) ;
+    transform: translate(-4px , 6px) rotate(-2deg) scale(1.2);
+  }
+}
+
+@keyframes wiggle2 {
+  0% {
+    transform: translate(10px , 5px) rotate(-1deg) scale(1.2);
+  }
+  25% {
+    transform: translate(2px , 6px) rotate(1deg) scale(1.18);
+  }
+  50% {
+    transform: translate(9px , 8px) rotate(-1deg) scale(1.15);
+  }
+  75%{
+    transform: translate(2px , 2px) rotate(0deg) scale(1.10);
+  } 
+  100% {
+    transform: translate(4px , -6px) rotate(-2deg) scale(1);
   }
 }
 
@@ -63,6 +88,19 @@ span:nth-child(2) {
 
 .startB {
   background-color: white;
+  border-color: rgba(0, 0, 0, 1);
+  border-width: 20px;
+  border-radius: 50%;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: 'Fredoka One';
+  padding: 50px;
+  animation: pulse 2s infinite;
+  cursor: pointer;
+}
+
+.startBclicked {
+  background-color: lightseagreen;
   border-color: rgba(0, 0, 0, 1);
   border-width: 20px;
   border-radius: 50%;
@@ -108,13 +146,18 @@ span:nth-child(2) {
   top: 750px;
   left: 10.5%;
   font-size: 40px;
+  color: mediumorchid;
+  animation: pulse 1.5s infinite;
 }
+
+
+
 
 
 @keyframes leftdia {
   0% {
     opacity: 0%;
-    transform: translatex(190px) translatey(190px)
+    transform: translatex(190px) translatey(190px) 
   }
   /* 50% {
     opacity: 50%;
@@ -145,6 +188,8 @@ span:nth-child(2) {
   top: 750px;
   left: 46.5%;
   font-size: 40px;
+  color: maroon;
+  animation: pulse 1.5s infinite;
 }
 
 @keyframes topdia {
@@ -180,6 +225,8 @@ span:nth-child(2) {
   top: 750px;
   right: 13.5%;
   font-size: 40px;
+  color: steelblue;
+  animation: pulse 1.5s infinite;
 }
 
 
