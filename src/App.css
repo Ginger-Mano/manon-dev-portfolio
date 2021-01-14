@@ -295,3 +295,132 @@ section .bannerOne .aboutBanner {
     transform: translatex(-100%);
   }
 }
+
+.static1 {
+background-color: mintcream;
+padding: 200px
+}
+.aboutGrid1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  
+}
+.aboutPic {
+  background-color: turquoise;
+ 
+}
+
+.pic {
+  padding: 20px;
+}
+.aboutHeader {
+  font-weight: bolder;
+  font-family: 'Fredoka One';
+  font-size: 80px;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: rgba(114, 29, 114, 0.925);
+  -webkit-text-fill-color: transparent;
+}
+
+.aboutPara1 {
+  font-family: 'nunito';
+  font-weight: normal;
+  font-size: 50px;
+  text-align: left;
+  padding-left: 40px
+}
+
+.aboutPara2 {
+  font-family: 'nunito';
+  font-weight: normal;
+  font-size: 50px;
+  text-align: left;
+}
+
+.aboutPara3 {
+  font-family: 'nunito';
+  font-weight: normal;
+  font-size: 50px;
+  text-align: right;
+  padding-left: 60px;
+}
+
+.aboutPara2Div {
+  background-color: ghostwhite;
+  }
+
+.aboutPara2Div {
+  background-color: rgb(198, 254, 255);
+  }
+
+.aboutPara1Div {
+background-color: honeydew;
+}
+
+.navDiv {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.topnav {
+  background-color: rgb(201, 201, 201);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  padding-bottom: 20px
+}
+.menuline {
+  width: 35px;
+  height: 6px;
+  background-color: black;
+  margin: 8px ;
+  cursor: pointer;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.navbarTitle {
+  font-family: 'Fredoka One';
+  font-weight: lighter;
+  font-size: 40px;
+  margin: 10px;
+}
+
+
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
