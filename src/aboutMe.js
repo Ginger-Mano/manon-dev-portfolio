@@ -4,13 +4,15 @@ import Navbar from "./Navbar"
 class AboutMe extends Component {
     render() {
         return (
-            <div className="main">
+            <div >
                 <Navbar />
+
                 <section>
                     <div className="bannerOne">
                         <h2 className="aboutBanner">About Me --- About Me --- About Me --- About Me --- About Me --- About Me --- About Me --- About Me --- About Me --- About Me --- About Me</h2>
                     </div>
                 </section>
+
 
                 <div className="static1"></div>
 
