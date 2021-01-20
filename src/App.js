@@ -6,6 +6,11 @@ import DevHome2 from "./DevHome2"
 import AboutMe from "./AboutMe"
 import Projects from "./Projects"
 import Blogs from "./Blogs";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
+
+
+library.add(fab, faGithubSquare)
 
 class App extends Component {
 

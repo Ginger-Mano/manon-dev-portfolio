@@ -300,7 +300,7 @@ section .bannerOne .aboutBanner {
 
 .static1 {
 background-color: mintcream;
-padding: 200px
+padding: 100px
 }
 .aboutGrid1 {
   display: grid;
@@ -372,6 +372,8 @@ background-color: honeydew;
   align-items: center;
   padding-bottom: 20px
 }
+
+
 .menuline {
   width: 35px;
   height: 6px;
@@ -394,16 +396,17 @@ background-color: honeydew;
 
 
 .sidebar {
-  height: 100%; /* 100% Full-height */
-  width: 250px; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  height: 100%; 
+  width: 250px; 
+  position: fixed; 
+  z-index: 1; 
   top: 0;
   left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  /* transition: 0.5s; 0.5 second transition effect to slide in the sidenav */
+
 }
 
 .sidebar a {
@@ -411,7 +414,7 @@ background-color: honeydew;
   text-decoration: none;
   font-family: Fredoka One;
   font-size: 25px;
-  color: #818181;
+  color: #def17d;
   display: block;
   transition: 0.3s;
 }
@@ -431,5 +434,55 @@ background-color: honeydew;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  /* padding: 20px; */
-}  
+} 
+
+.aboutmain {
+  transition: margin-left .5s;
+}
+
+.footerDiv {
+  background-color: rgb(222, 222, 222);
+  padding-bottom: 25px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+
+.iconY {
+  color: red;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.iconL {
+  color: mediumblue;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.iconG {
+  color: lightseagreen;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.iconM {
+
+  padding: 20px;
+  cursor: pointer;
+}
+.footerEmail {
+  font-family: 'Fredoka One';
+  font-size: 40px;
+ font-weight: lighter;
+}
+.dev {
+  font-family: 'nunito';
+}
+
+.footerAsk {
+  font-family: 'Fredoka One';
+  font-size: 40px;
+  font-weight: lighter;
+  
+}

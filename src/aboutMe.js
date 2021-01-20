@@ -1,10 +1,11 @@
 import React, { Component } from "react"
 import Navbar from "./Navbar"
+import Footer from "./Footer"
 
 class AboutMe extends Component {
     render() {
         return (
-            <div >
+            <div className="aboutmain">
                 <Navbar />
 
                 <section>
@@ -38,6 +39,7 @@ class AboutMe extends Component {
                 <div className="aboutPara3Div">
                     <h2 className="aboutPara3">In my personal life, while not working on my new interdisciplinary art series, I spend time researching, dancing, reading, listening to music, watching movies, being in nature, and hanging out.</h2>
                 </div>
+                <Footer />
             </div>
         )
     }

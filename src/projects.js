@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Navbar from "./Navbar"
+import Footer from "./Footer"
 
 class Projects extends Component {
     render() {
@@ -7,6 +8,7 @@ class Projects extends Component {
             <div>
                 <Navbar />
                 <div>Projects</div>
+                <Footer />
             </div>
         )
     }
