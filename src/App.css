@@ -1,12 +1,18 @@
+/* LANDING PAGE */
+
 .App {
   text-align: center;
+  
 }
+
+/* HOME PAGE */
 
 .Appchange {
   background-color: greenyellow;
   text-align: center;
   position: absolute;
   width: 100%;
+  
 }
 
 .title1 {
@@ -164,10 +170,6 @@
   animation: pulse 1.5s infinite;
 }
 
-
-
-
-
 @keyframes leftdia {
   0% {
     opacity: 0%;
@@ -261,6 +263,9 @@
     transform: translatex(0px) translatey(0px)
   }
 }
+
+/* BANNERS */
+
 section {
   position: relative;
   width: 100%;
@@ -273,7 +278,7 @@ section {
 section .bannerOne {
   position: relative;
   width: 100%;
-  background-color: khaki;
+  background-color: mintcream;
   overflow: hidden;
   -webkit-text-stroke: 2px;
   -webkit-text-stroke-color: black;
@@ -298,23 +303,36 @@ section .bannerOne .aboutBanner {
   }
 }
 
+/* ABOUT PAGE */
+
+/* .aboutmain {
+  transition: margin-left .5s;
+  overflow-x: hidden; 
+} */
+
 .static1 {
 background-color: mintcream;
 padding: 100px
 }
+
 .aboutGrid1 {
   display: grid;
   grid-template-columns: auto auto;
   
 }
+
 .aboutPic {
-  background-color: turquoise;
+  background-color: white;
  
 }
 
 .pic {
-  padding: 20px;
+  padding: 10px;
+  height: 90%;
+  width: 90%;
+
 }
+
 .aboutHeader {
   font-weight: bolder;
   font-family: 'Fredoka One';
@@ -322,44 +340,110 @@ padding: 100px
   -webkit-text-stroke: 2px;
   -webkit-text-stroke-color: rgba(114, 29, 114, 0.925);
   -webkit-text-fill-color: transparent;
+  
 }
+
 
 .aboutPara1 {
   font-family: 'nunito';
   font-weight: normal;
-  font-size: 50px;
-  text-align: left;
-  padding-left: 40px
+  font-size: 40px;
+  text-align: center;
+  padding: 70px
 }
 
-.aboutPara2 {
-  font-family: 'nunito';
-  font-weight: normal;
-  font-size: 50px;
-  text-align: left;
-}
+.aboutPara1Div {
+  background-color: white;
+  
+  animation-name: slide-two;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    z-index: -1;
+    position: relative;
+    /* overflow-x: hidden; */
+    top: 40px;
+    left: 0px;;
+  }
+  
+  @keyframes slide-two {
+    0% {
+      top: 40px;
+      left: -1000px;
+      opacity: 0%;
+      
+    }
+    100% {
+      top: 40px;
+      left: 0px;
+      opacity: 100%;
+    }
+  }
+
 
 .aboutPara3 {
   font-family: 'nunito';
   font-weight: normal;
   font-size: 50px;
   text-align: right;
-  padding-left: 60px;
+  padding: 60px;
+  top: 70%;
+  
 }
 
-.aboutPara2Div {
-  background-color: ghostwhite;
-  }
+/* .aboutPara3Div {
+  background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+} */
+
+/* .aboutPara2 {
+  position: absolute;
+  font-family: 'nunito';
+  font-weight: normal;
+  font-size: 50px;
+  text-align: left;
+  z-index: -1;
+} */
 
 .aboutPara2Div {
-  background-color: rgb(198, 254, 255);
+ position: absolute;
+ top: 25%;
+  font-family: 'nunito';
+  font-weight: bold;
+  font-size: 50px;
+  text-align: left;
+  /* z-index: -1; */
+  color: rgb(255, 255, 255);
+  padding: 7%;
+  
+  }
+  .aboutPic2Div:hover {
+    transform: scale(1.15);
   }
 
-.aboutPara1Div {
-background-color: honeydew;
+
+.aboutPic2Div {
+  position: relative;
+  z-index: -2;
+  overflow: hidden;
+  transition: ease-in-out;
+  transform: scale(1);
 }
 
+.aboutPicDiv {
+  min-width: 90%;
+    min-height: 90%;
+    z-index: -2;
+ cursor:crosshair;
+    opacity: 1;
+}
 
+.aboutPicDiv:hover {
+  opacity: 0.3;
+}
+
+/* NAVIGATION BAR */
 
 
 .topnav {
@@ -422,6 +506,7 @@ background-color: honeydew;
 .sidebar a:hover {
   color: #f1f1f1;
 }
+
 .sidebar .navClose {
   position: absolute;
   top: 0;
@@ -429,6 +514,7 @@ background-color: honeydew;
   font-size: 36px;
   margin-left: 50px;
 }
+
 .main {
   transition: margin-left .5s;
   position: -webkit-sticky;
@@ -436,9 +522,7 @@ background-color: honeydew;
   top: 0;
 } 
 
-.aboutmain {
-  transition: margin-left .5s;
-}
+/* FOOTER */
 
 .footerDiv {
   background-color: rgb(222, 222, 222);
@@ -456,33 +540,37 @@ background-color: honeydew;
 
 .iconL {
   color: mediumblue;
+  /* color: black; */
   padding: 20px;
   cursor: pointer;
 }
 
 .iconG {
-  color: lightseagreen;
+  /* color: lightseagreen; */
+  color: black;
   padding: 20px;
   cursor: pointer;
 }
 
 .iconM {
-
+  color: black;
   padding: 20px;
   cursor: pointer;
 }
+
 .footerEmail {
   font-family: 'Fredoka One';
-  font-size: 40px;
+  font-size: 35px;
  font-weight: lighter;
 }
+
 .dev {
   font-family: 'nunito';
 }
 
 .footerAsk {
   font-family: 'Fredoka One';
-  font-size: 40px;
+  font-size: 35px;
   font-weight: lighter;
   
 }

@@ -16,10 +16,10 @@ function Footer() {
 
             <div className="footerIconDiv">
                 <a href="https://github.com/Ginger-Mano"><FontAwesomeIcon icon={faGithubSquare} size="5x" className="iconG" /></a>
-                <FontAwesomeIcon icon={faLinkedin} size="5x" className="iconL" />
+                <a href="https://www.linkedin.com/in/manon-sainton-7830b01ab"><FontAwesomeIcon icon={faLinkedin} size="5x" className="iconL" /></a>
 
-                <FontAwesomeIcon icon={faMedium} size="5x" className="iconM" />
-                <FontAwesomeIcon icon={faYoutube} size="5x" className="iconY" />
+                <a href="https://mcasimirian.medium.com/"><FontAwesomeIcon icon={faMedium} size="5x" className="iconM" /></a>
+                <a href="https://www.youtube.com/channel/UC7giI4VW75cI-_-uqY_aRoQ"><FontAwesomeIcon icon={faYoutube} size="5x" className="iconY" /></a>
             </div>
         </div>
     )
