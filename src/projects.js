@@ -7,7 +7,13 @@ class Projects extends Component {
         return (
             <div>
                 <Navbar />
+                <section>
+                    <div className="bannerTwo">
+                        <h2 className="projectsBanner">Projects --- Projects --- Projects --- Projects --- Projects --- Projects --- Projects --- Projects --- Projects --- Projects --- Projects</h2>
+                    </div>
+                </section>
                 <div>Projects</div>
+
                 <Footer />
             </div>
         )
