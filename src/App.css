@@ -306,7 +306,7 @@ section .bannerOne .aboutBanner {
 section .bannerTwo {
   position: relative;
   width: 100%;
-  background-color: lightblue;
+  background-color: lavender;
   overflow: hidden;
   -webkit-text-stroke: 2px;
   -webkit-text-stroke-color: black;
@@ -334,7 +334,7 @@ section .bannerTwo .projectsBanner {
 section .bannerThree {
   position: relative;
   width: 100%;
-  background-color: lavender;
+  background-color: lightblue;
   overflow: hidden;
   -webkit-text-stroke: 2px;
   -webkit-text-stroke-color: black;
@@ -642,9 +642,17 @@ padding: 100px
   background-color: mistyrose;
   border-radius: 60px;
   padding: 200px;
+  font-family: 'Fredoka One';
+  font-weight: lighter;
+  font-size: 20px;
 }
 
 .cont {
   display: grid;
   grid-template-columns: auto auto;
+}
+
+.video {
+  height: 50%;
+  width: 50%;
 }
