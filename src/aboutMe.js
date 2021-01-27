@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
+import "./IMG-2095.jpg"
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -22,7 +23,8 @@ class AboutMe extends Component {
 
                 <div className="aboutGrid1">
                     <div className="aboutPic">
-                        <img className="pic" alt='' src='https://cdn.mos.cms.futurecdn.net/vChK6pTy3vN3KbYZ7UU7k3.jpg'></img>
+                        {/* <img className="pic" alt='' src='https://cdn.mos.cms.futurecdn.net/vChK6pTy3vN3KbYZ7UU7k3.jpg'></img> */}
+                        <img className="pic" alt='' src='IMG-2095.jpg'></img>
                     </div>
 
                     <div>
@@ -38,9 +40,9 @@ class AboutMe extends Component {
                     <img className="aboutPicDiv" alt="" src="https://miro.medium.com/max/2892/1*GHJnsutrX_nGsxWWAetYxw.jpeg"></img>
 
                     <div className="aboutPara2Div">
-                        {/* <h2 className="aboutPara2"> */}
+                        
                             I also believe in the power of access. Access is crucial for communities at a global scope to gain information and insights to activate their future. Technology is one of, if not the most valuable tool to empower and enlighten communities. By diversifying the tech space and allowing for creative expression, gains in knowledge to solidify experience, and teamwork for innovation, we can improve the quality of life for millions of people.
-                    {/* </h2> */}
+   
                     </div>
                 </div>
 

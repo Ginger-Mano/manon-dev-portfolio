@@ -641,10 +641,11 @@ padding: 100px
 .blogInfo {
   background-color: mistyrose;
   border-radius: 60px;
-  padding: 200px;
-  font-family: 'Fredoka One';
+  padding: 100px;
+  font-family: 'Nunito';
   font-weight: lighter;
   font-size: 20px;
+  text-align: left;
 }
 
 .cont {
@@ -653,6 +654,14 @@ padding: 100px
 }
 
 .video {
-  height: 50%;
-  width: 50%;
+  height: 70%;
+  width: 70%;
+}
+
+.vid {
+  align-items: center;
+}
+
+.aname {
+font-weight: bold;
 }
