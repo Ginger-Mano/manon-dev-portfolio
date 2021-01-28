@@ -21,7 +21,7 @@ class Projects extends Component {
                             <h2>Description: An app designed for minorities and friends to find and make reservations at black owned wellness spaces and restaurants. </h2>
                             <h2>Links:
                                 <a href="https://youtu.be/pRNGNh_npa0"> Demo </a> | <a href="https://github.com/Ginger-Mano/Mod2Project"> GitHub</a> </h2>
-                            <ReactPlayer url="https://youtu.be/pRNGNh_npa0" controls={true} />
+                            <ReactPlayer width="70%" height="70%" url=" https://youtu.be/pRNGNh_npa0" controls={true} />
 
                         </div>
                     </div>
@@ -34,7 +34,7 @@ class Projects extends Component {
                                 <a href="https://github.com/Ginger-Mano/WildlifeKeep-Frontend2/blob/main/src/App.js" > Front-End</a>  |
                                 <a href="https://github.com/Ginger-Mano/The-Wildlife-Keep-Backend" > Back-End</a>
                             </h2>
-                            <ReactPlayer url="https://youtu.be/7xE0sdlucyI" controls={true} />
+                            <div className="div"><ReactPlayer className="vid" width="70%" height="70%" url=" https://youtu.be/7xE0sdlucyI" controls={true} /></div>
 
                         </div>
                     </div>
@@ -47,3 +47,5 @@ class Projects extends Component {
     }
 }
 export default Projects
+
+// node server.js

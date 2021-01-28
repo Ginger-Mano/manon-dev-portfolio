@@ -33,7 +33,7 @@ class AboutMe extends Component {
                 <div className="static1"></div>
 
                 <div className="aboutPara1Div">
-                    <ScrollAnimation animateIn="fadeInLeft"><h2 className="aboutPara1">Welcome! <br></br> My name is Manon. I'm a software engineer and synesthetic interdisciplinary artist with a passion for problem solving and storytelling through color, visuals, and sound. As a programmer, I think a lot about user interaction, engagement, and multisensory experiences. What I love about coding is that the possibilities are endless at the intersection of ideas and imagination. I'm a huge believer in the power of ideas and collaborating with others using effective communication to bring concepts to fruition.</h2></ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeIn"><h2 className="aboutPara1">Welcome! <br></br> My name is Manon. I'm a software engineer and synesthetic interdisciplinary artist with a passion for problem solving and storytelling through color, visuals, and sound. As a programmer, I think a lot about user interaction, engagement, and multisensory experiences. What I love about coding is that the possibilities are endless at the intersection of ideas and imagination. I'm a huge believer in the power of ideas and collaborating with others using effective communication to bring concepts to fruition.</h2></ScrollAnimation>
                 </div>
 
                 <div className="aboutPic2Div">

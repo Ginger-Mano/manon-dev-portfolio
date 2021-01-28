@@ -15,11 +15,11 @@ function Footer() {
             </div>
 
             <div className="footerIconDiv">
-                <a href="https://github.com/Ginger-Mano"><FontAwesomeIcon icon={faGithubSquare} size="5x" className="iconG" /></a>
-                <a href="https://www.linkedin.com/in/manon-sainton-7830b01ab"><FontAwesomeIcon icon={faLinkedin} size="5x" className="iconL" /></a>
+                <a href="https://github.com/Ginger-Mano"><FontAwesomeIcon icon={faGithubSquare} size="3x" className="iconG" /></a>
+                <a href="https://www.linkedin.com/in/manon-sainton-7830b01ab"><FontAwesomeIcon icon={faLinkedin} size="3x" className="iconL" /></a>
 
-                <a href="https://mcasimirian.medium.com/"><FontAwesomeIcon icon={faMedium} size="5x" className="iconM" /></a>
-                <a href="https://www.youtube.com/channel/UC7giI4VW75cI-_-uqY_aRoQ"><FontAwesomeIcon icon={faYoutube} size="5x" className="iconY" /></a>
+                <a href="https://mcasimirian.medium.com/"><FontAwesomeIcon icon={faMedium} size="3x" className="iconM" /></a>
+                <a href="https://www.youtube.com/channel/UC7giI4VW75cI-_-uqY_aRoQ"><FontAwesomeIcon icon={faYoutube} size="3x" className="iconY" /></a>
             </div>
         </div>
     )
