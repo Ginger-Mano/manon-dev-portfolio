@@ -24,7 +24,7 @@ class Navbar extends React.Component {
 
                 <div className="navDiv">
 
-                    <div className="topnav">
+                    <div className="topnav" onClick={this.sidebarMenu}>
                         <div>
                             <div className="menuline"></div>
                             <div className="menuline" onClick={this.sidebarMenu}></div>
@@ -42,15 +42,17 @@ class Navbar extends React.Component {
 
                 </div>
 
-                {this.state.menuClicked ?
-                    <div className="sidebar">
-                        <Link to="/aboutMe"><a href="navbarClose" className="navClose" onClick={this.navbarClose}>X</a></Link>
-                        <Link to="/devHome2"><a href="#">Home</a></Link>
-                        <Link to="/aboutMe"><a href="#">About</a></Link>
-                        <Link to="/projects"><a href="#">Projects</a></Link>
-                        <Link to="/blogs"><a href="#">Blogs</a></Link>
-                    </div> : null}
-            </div>
+                {
+                    this.state.menuClicked ?
+                        <div className="sidebar">
+                            <Link to="/aboutMe"><a href="navbarClose" className="navClose" onClick={this.navbarClose}>X</a></Link>
+                            <Link to="/devHome2"><a href="#">Home</a></Link>
+                            <Link to="/aboutMe"><a href="#">About</a></Link>
+                            <Link to="/projects"><a href="#">Projects</a></Link>
+                            <Link to="/blogs"><a href="#">Blogs</a></Link>
+                        </div> : null
+                }
+            </div >
 
 
         )

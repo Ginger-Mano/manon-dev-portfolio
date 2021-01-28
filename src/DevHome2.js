@@ -192,7 +192,7 @@ class DevHome2 extends Component {
                             {this.state.letterNHover ? <span className="letterAnim2" onMouseOver={this.nMove} onMouseLeave={this.nFixed}>n</span> : <span className="letterfixed" onMouseOver={this.nMove} onMouseLeave={this.nfixed}>n</span>}
                         </div>
 
-                        <h6 className="title2">Software Engineer</h6>
+                        <h6 className="title22">Software Engineer</h6>
                     </div>
 
                     {this.state.button ? <Link to="/aboutMe"><img className="img" onMouseOver={this.hoverAboutDesc} onMouseLeave={this.noAboutDesc} alt="" src="https://static.thenounproject.com/png/415376-200.png" /></Link> : null}

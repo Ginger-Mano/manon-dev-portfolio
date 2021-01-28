@@ -14,9 +14,9 @@ class Projects extends Component {
                         <h2 className="projectsBanner">Projects --- Projects --- Projects --- Projects --- Projects --- Projects --- Projects --- Projects --- Projects --- Projects --- Projects</h2>
                     </div>
                 </section>
-                <div className="cont">
-                    <div className="blogCont1">
-                        <div className="blogInfo">
+                <div className="projcont">
+                    <div className="projectCont1">
+                        <div className="projectInfo">
                             <h2><span style={style}>App Name:</span> Spotz</h2>
                             <h2>Description: An app designed for minorities and friends to find and make reservations at black owned wellness spaces and restaurants. </h2>
                             <h2>Links:
@@ -25,8 +25,8 @@ class Projects extends Component {
 
                         </div>
                     </div>
-                    <div className="blogCont1">
-                        <div className="blogInfo">
+                    <div className="projectCont1">
+                        <div className="projectInfo">
                             <h2><span style={style}>App Name:</span> The Wildlife Keep</h2>
                             <h2>Description: An app for wildlife enthusiasts to get information on endangered animals and favorite them to a personalized watchlist.</h2>
                             <h2>Links:

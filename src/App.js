@@ -27,28 +27,6 @@ class App extends Component {
           <Route path="/blogs" render={() => <Blogs />} />
         </Switch>
 
-        {/* <div>
-          <div className="title1">
-            <span>m</span>
-            <span>a</span>
-            <span>n</span>
-            <span>o</span>
-            <span>n</span>
-            <span> </span>
-            <span>s</span>
-            <span>a</span>
-            <span>i</span>
-            <span>n</span>
-            <span>t</span>
-            <span>o</span>
-            <span>n</span>
-          </div>
-          <h6 className="title2">Software Engineer</h6>
-        </div>
-
-        <div className="start">
-          <Link to="/devHome2"><button className="startB" onClick={this.startBClicked}>Start <br></br> here</button></Link>
-        </div> */}
 
       </div>
     )

@@ -22,15 +22,15 @@
   padding-top: 50px;
 }
 
-.title2 {
-  cursor: pointer;
-  animation: enlarge 1.5s infinite
+.title22 {
+  cursor: cell;
+  font-family: 'Fredoka One';
+  font-size: 50px;
+  font-weight: bold;
 }
-@keyframes enlarge {
-  0% {
-    transform: scale(1.5%);
-  }
-}
+ .title22:hover {
+   color: lightgoldenrodyellow;
+ }
 
 .title3 {
   font-family: 'Fredoka One';
@@ -324,7 +324,7 @@ section .bannerTwo .projectsBanner {
 
 @keyframes movingL {
   0% {
-    transform: translatex(-100%);
+    transform: translatex(-50%);
   }
   100% {
     transform: translatex(0%);
@@ -367,32 +367,43 @@ section .bannerThree .blogsBanner {
 } */
 
 .static1 {
-background-color: mintcream;
-padding: 100px
+background-color: rgb(163, 255, 209);
+padding: 10px
 }
+
+.static2 {
+  background-color: rgba(114, 29, 114, 0.925);
+  padding: 10px
+  }
 
 .aboutGrid1 {
   display: grid;
   grid-template-columns: auto auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
   
 }
 
 .aboutPic {
-  background-color: white;
- 
+  background-color: rgba(248, 238, 221, 0.925);
+  height: 100%;
+  width: 80%;
+  margin-left: 40px;
 }
 
 .pic {
   padding: 10px;
   height: 90%;
   width: 90%;
+  margin-top: 30px;
 
 }
 
 .aboutHeader {
   font-weight: bolder;
   font-family: 'Fredoka One';
-  font-size: 80px;
+  font-size: 100px;
+  top: 200px;
   -webkit-text-stroke: 2px;
   -webkit-text-stroke-color: rgba(114, 29, 114, 0.925);
   -webkit-text-fill-color: transparent;
@@ -419,6 +430,7 @@ padding: 100px
     /* overflow-x: hidden; */
     top: 40px;
     left: 0px;;
+    padding-bottom: 30px;
   }
   
   @keyframes slide-two {
@@ -439,28 +451,17 @@ padding: 100px
 .aboutPara3 {
   font-family: 'nunito';
   font-weight: normal;
-  font-size: 50px;
+  font-size: 40px;
   text-align: right;
   padding: 60px;
   top: 70%;
+}
+
+.aboutPara3Div {
+  padding-bottom: 30px;
   
 }
 
-/* .aboutPara3Div {
-  background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-} */
-
-/* .aboutPara2 {
-  position: absolute;
-  font-family: 'nunito';
-  font-weight: normal;
-  font-size: 50px;
-  text-align: left;
-  z-index: -1;
-} */
 
 .aboutPara2Div {
  position: absolute;
@@ -485,6 +486,7 @@ padding: 100px
   overflow: hidden;
   transition: ease-in-out;
   transform: scale(1);
+  padding-bottom: 30px;
 }
 
 .aboutPicDiv {
@@ -503,7 +505,7 @@ padding: 100px
 
 
 .topnav {
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(230, 230, 230);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -550,13 +552,14 @@ padding: 100px
 }
 
 .sidebar a {
-  padding: 8px 8px 8px 32px;
+  padding: 25px 25px 8px 32px;
   text-decoration: none;
   font-family: Fredoka One;
   font-size: 25px;
   color: #def17d;
   display: block;
   transition: 0.3s;
+  text-align: center;
 }
 
 .sidebar a:hover {
@@ -631,14 +634,16 @@ padding: 100px
   
 }
 
-.blogCont1 {
+/* PROJECTS */
+
+.projectCont1 {
   background-color: navy;
   padding: 20px;
   border-radius: 60px;
   margin: 90px
 }
 
-.blogInfo {
+.projectInfo {
   background-color: mistyrose;
   border-radius: 60px;
   padding: 100px;
@@ -648,7 +653,14 @@ padding: 100px
   text-align: left;
 }
 
+
+
 .cont {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.projcont {
   display: grid;
   grid-template-columns: auto auto;
 }
@@ -662,6 +674,26 @@ padding: 100px
   align-items: center;
 }
 
-.aname {
-font-weight: bold;
+.blogCont1 {
+  background-color: navy;
+  padding: 20px;
+  border-radius: 60px;
+  margin: 90px
+}
+
+/* BLOGS */
+
+.blogInfo {
+  background-color: rgb(201, 235, 226);
+  border-radius: 60px;
+  padding: 100px;
+  font-family: 'Nunito';
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: left;
+}
+
+.blogIG {
+  height: 350px;
+  width: 550px
 }
