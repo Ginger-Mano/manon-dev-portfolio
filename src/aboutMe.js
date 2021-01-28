@@ -46,7 +46,7 @@ class AboutMe extends Component {
                     </div>
                 </div>
 
-                <div className="static1"></div>
+                <div className="static2"></div>
 
                 <div className="aboutPara3Div">
                     <ScrollAnimation animateIn="fadeInDown"><h2 className="aboutPara3">In my personal life, while not working on my new interdisciplinary art series, I spend time researching, dancing, reading, listening to music, watching movies, being in nature, and hanging out.</h2></ScrollAnimation>

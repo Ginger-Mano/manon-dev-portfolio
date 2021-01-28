@@ -1,6 +1,8 @@
 import './App.css';
 import React, { Component } from "react"
-import { Route, Switch, withRouter, Link } from "react-router-dom"
+import { Link } from "react-router-dom"
+// import useSound from 'use-sound';
+import "./186669__fordps3__computer-boop.wav"
 
 
 class DevHome2 extends Component {
@@ -17,10 +19,14 @@ class DevHome2 extends Component {
         letterSHover: false,
         letterIHover: false,
         letterTHover: false,
-        scaleAboutImg: false
+        scaleAboutImg: false,
+
     }
 
+
+
     startBClicked = () => {
+
         this.setState({
             button: !this.state.button,
             backgroundChange: !this.state.backgroundChange
@@ -159,6 +165,7 @@ class DevHome2 extends Component {
     }
 
     render() {
+
         return (
             this.state.backgroundChange ?
 
@@ -194,6 +201,7 @@ class DevHome2 extends Component {
 
                         <h6 className="title22">Software Engineer</h6>
                     </div>
+
 
                     {this.state.button ? <Link to="/aboutMe"><img className="img" onMouseOver={this.hoverAboutDesc} onMouseLeave={this.noAboutDesc} alt="" src="https://static.thenounproject.com/png/415376-200.png" /></Link> : null}
                     {this.state.addAboutHover ? <h2 className="imgtext">About Me</h2> : null}

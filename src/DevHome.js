@@ -1,7 +1,7 @@
 import './App.css';
 import React, { Component } from "react"
-import { Route, Switch, withRouter, Link } from "react-router-dom"
-import AboutMe from "./AboutMe"
+import { Link } from "react-router-dom"
+
 
 class DevHome extends Component {
     state = {
