@@ -572,6 +572,9 @@ padding: 5px
 
 .sidebar .navClose {
   position: absolute;
+  font-family: Fredoka One;
+  color: #def17d;
+  font-size: 20px;
   top: 0;
   right: 25px;
   font-size: 36px;

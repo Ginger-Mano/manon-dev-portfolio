@@ -45,7 +45,7 @@ class Navbar extends React.Component {
                 {
                     this.state.menuClicked ?
                         <div className="sidebar">
-                            <Link to="/aboutMe"><a href="navbarClose" className="navClose" onClick={this.navbarClose}>X</a></Link>
+                            <h3 className="navClose" onClick={this.sidebarMenu}>X</h3>
                             <Link to="/devHome2"><a href="#">Home</a></Link>
                             <Link to="/aboutMe"><a href="#">About</a></Link>
                             <Link to="/projects"><a href="#">Projects</a></Link>
